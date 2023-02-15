@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <style>
+      /* Basic styling for the page */
+      p{
+      text-align: justify;
+      text-justify: inter-word;
+      }
+      
+      
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        
+        padding: 0;
+      }
+
+      /* Styling for the header */
+      header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+
+      header h1 {
+        margin: 0;
+        margin-left: 1%;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      nav li {
+        margin: 0 10px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      /* Styling for the main content */
+      main {
+        padding: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+      .profile-picture {
+  text-align: center;
+}
+
+.profile-picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.left-page {
+  background-color: #e6e6e6;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transform-origin: left;
+  transform: perspective(800px) rotateY(-10deg);
+}
+
+.right-page {
+  background-color: #ffffff;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transform-origin: right;
+  transform: perspective(800px) rotateY(10deg);
+}
+
+.profile-picture {
+  width: 80%;
+  margin: 0 auto
+}
+footer {
+  background-color: #F8F8F8;
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+.about {
+  margin-top: 5%;
+  margin-left: 25%;
+        margin-right: 25%;
+
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 >Tejasvi Chabbra</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="CV.html">CV</a></li>
+          <li><a href="credentials.html">Credentials</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="profile-picture">
+        <img src="your-image-file.jpeg" alt="Tejasvi Chabbra">
+      </div>
+      
+      <section id="about" class="about">
+        <h2>About me</h2>
+        <p>Hello, I am Tejasvi Chabbra, a fourth-year undergraduate student pursuing a double major in Economics and Electronics and Communication at BITS Pilani. My academic pursuits reflect my deep interest in the field of finance, which I have been actively exploring through my studies and research projects.</p>
+
+        <p>Over the years, I have had the opportunity to work on several exciting projects related to finance. Under the guidance of Dr. Nivedita Sinha at BITS Pilani Hyderabad Campus, I am currently working on a project investigating the impact of bank consolidation on lending relationships in the Indian context. Additionally, I am performing Econometric time series analysis using various models under the supervision of Dr. Rishi Kumar to explore the link between financial markets and the real economy in India.</p>
+        
+        <p>I have also gained practical experience through my internships in Investment Banking and Venture Capital, which further ignited my interest in pursuing research in finance. With a strong foundation in economics and a keen eye for detail, I aspire to contribute to the advancement of the field through my work.</p>
+        
+        <p>Thank you for taking the time to learn more about me and my interests.</p>
+        
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="social-links">
+          <a href="https://github.com/chabtj" target="_blank">
+            <img src="github-icon.png" alt="GitHub Icon">
+          </a>
+          <a href="https://linkedin.com/in/tejasvichabbra" target="_blank">
+            <img src="linkedin-icon.png" alt="LinkedIn Icon">
+          </a>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
